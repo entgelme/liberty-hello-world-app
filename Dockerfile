@@ -1,5 +1,5 @@
 #IMAGE: Get the base image for Liberty
-FROM websphere-liberty:19.0.0.9-kernel
+FROM websphere-liberty:24.0.0.9-kernel
 
 
 #BINARIES: Add in all necessary application binaries
