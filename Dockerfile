@@ -1,6 +1,6 @@
 #IMAGE: Get the base image for Liberty
 #FROM websphere-liberty:24.0.0.9-kernel
-FROM icr.io/appcafe/websphere-liberty:24.0.0.9-kernel
+FROM icr.io/appcafe/websphere-liberty:24.0.0.9-full-java17-openj9-ubi
 
 #BINARIES: Add in all necessary application binaries
 COPY wlp/config/server.xml /config/server.xml
